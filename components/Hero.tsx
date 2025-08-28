@@ -9,7 +9,7 @@ import vector4 from "@/public/Vector 4.svg";
 import divider from "@/public/Rectangle 68.svg";
 // import hero from "@/public/space-copenhagen-the-stratford-architonic-rs-8-03-arcit18 1.png";
 import DateTimePicker from "./DateTimePicker";
-import HeroHome from "@/public/HeroHome.JPG";
+import HeroHome from "@/public/HeroHome.jpg";
 const Hero = () => {
   const [isPopupVisible, setIsPopupVisible] = useState(false);
   const popupRef = useRef<HTMLDivElement>(null);
