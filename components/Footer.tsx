@@ -5,7 +5,7 @@ import vector4 from "@/public/Vector 4.svg";
 import divider from "@/public/Rectangle 68.svg";
 import Image from "next/image";
 import star8 from "@/public/Star 5.svg";
-import Image1 from "@/public/jean-philippe-delberghe-T5BF4OyQLwU-unsplash 1.png";
+// import Image1 from "@/public/jean-philippe-delberghe-T5BF4OyQLwU-unsplash 1.png";
 import { FaFacebook, FaInstagram, FaTwitter } from "react-icons/fa";
 import { IoIosSend } from "react-icons/io";
 import DateTimePicker from "./DateTimePicker";
@@ -60,7 +60,7 @@ const Footer = () => {
 
         <div>
           <Image
-            src={Image1}
+            src='/jean-philippe-delberghe-T5BF4OyQLwU-unsplash 1.png'
             alt="room image"
             className="max-small:mt-12 w-40 sm:w-[12rem] md:w-[18rem] lg:w-[27.688rem] xl:mr-28 desktop:mr-0"
           />

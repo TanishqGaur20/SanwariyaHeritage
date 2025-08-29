@@ -3,10 +3,10 @@ import AOS from "aos";
 import "aos/dist/aos.css";
 import React, { useEffect, useState, useRef } from "react";
 import Swal from "sweetalert2";
-import bests from "@/public/roomHero.png";
-import Image1 from "@/public/jean-philippe-delberghe-T5BF4OyQLwU-unsplash 1.png";
+// import bests from "@/public/roomHero.png";
+// import Image1 from "@/public/jean-philippe-delberghe-T5BF4OyQLwU-unsplash 1.png";
 import Image from "next/image";
-import best from "@/public/space-copenhagen-the-stratford-architonic-2-ed-reeve-24-arcit18 1.png";
+// import best from "@/public/space-copenhagen-the-stratford-architonic-2-ed-reeve-24-arcit18 1.png";
 
 const BookARoom = () => {
   const [isPopupVisible, setIsPopupVisible] = useState(false);
@@ -164,7 +164,7 @@ const BookARoom = () => {
 
         <div className="relative">
           <Image
-            src={bests}
+            src='/roomHero.png'
             alt="azure room"
             className="lg:w-[22.25rem] desktop:w-[28.313rem] largesceen:w-[37.5rem] h-[26.5rem] desktop:h-[30rem] largesceen:h-[40rem]"
             priority
@@ -239,7 +239,7 @@ const BookARoom = () => {
 
         <div className="relative">
           <Image
-            src={best}
+            src='/space-copenhagen-the-stratford-architonic-2-ed-reeve-24-arcit18 1.png'
             alt="azure room"
             className="lg:w-[22.25rem] desktop:w-[28.313rem] largesceen:w-[37.5rem] h-[26.5rem] desktop:h-[30rem] largesceen:h-[40rem]"
             priority
@@ -313,7 +313,7 @@ const BookARoom = () => {
 
         <div className="relative">
           <Image
-            src={Image1}
+            src='/jean-philippe-delberghe-T5BF4OyQLwU-unsplash 1.png'
             alt="azure room"
             className="lg:w-[22.25rem] desktop:w-[28.313rem] largesceen:w-[37.5rem] h-[26.5rem] desktop:h-[30rem] largesceen:h-[40rem]"
             priority
