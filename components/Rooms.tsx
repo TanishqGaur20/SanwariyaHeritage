@@ -2,7 +2,7 @@
 import React, { useEffect, useState, useRef } from "react";
 import AOS from "aos";
 import Image from "next/image";
-import room1 from "@/public/space-copenhagen-the-stratford-architonic-rs-10-28-arcit18 1.png";
+// import room1 from "@/public/space-copenhagen-the-stratford-architonic-rs-10-28-arcit18 1.png";
 // import room2 from "@/public/space-copenhagen-the-stratford-architonic-rs-11-30-arcit18 1.png";
 import btn from "@/public/buttonroom.svg";
 import star8 from "@/public/Star 8.svg";
@@ -141,7 +141,7 @@ const Rooms = () => {
       <section className="mt-10 md:mt-20 flex justify-between flex-col-reverse sm:flex-row">
         <div className="flex justify-around flex-col w-fit">
           <Image
-            src={room1}
+            src='/space-copenhagen-the-stratford-architonic-rs-10-28-arcit18 1.png'
             alt="room-1"
             className="largesceen:w-[17.875rem] xl:w-[13.563rem] max-xl:hidden"
             priority

@@ -3,16 +3,16 @@ import React, { useEffect } from "react";
 import AOS from "aos";
 import Image from "next/image";
 import divider from "@/public/divider.png";
-import image1 from "@/public/facility1.png";
-import image2 from "@/public/facility2.png";
+// import image1 from "@/public/facility1.png";
+// import image2 from "@/public/facility2.png";
 import star8 from "@/public/Star 8.svg";
 import label from "@/public/labelF.svg";
 import vector from "@/public/VectorY.svg";
-import ice from "@/public/space-copenhagen-the-stratford-architonic-jw4-04-arcit18 1.png";
+// import ice from "@/public/space-copenhagen-the-stratford-architonic-jw4-04-arcit18 1.png";
 import btn from "@/public/buttonroom.svg";
-import wine from "@/public/wine-reserve.jpg";
+// import wine from "@/public/wine-reserve.jpg";
 // import conference from "@/public/conference.jpg";
-import best from "@/public/space-copenhagen-the-stratford-architonic-2-ed-reeve-24-arcit18 1.png";
+// import best from "@/public/space-copenhagen-the-stratford-architonic-2-ed-reeve-24-arcit18 1.png";
 
 const Facilities = () => {
   useEffect(() => {
@@ -34,7 +34,7 @@ const Facilities = () => {
           </div> */}
 
           <div>
-            <Image src={image2} alt="facility image" className="lg:w-[14.438rem] desktop:w-[20.938rem] largesceen:w-[27.688rem] hidden sm:block" priority />
+            <Image src="/facility2.png" alt="facility image" className="lg:w-[14.438rem] desktop:w-[20.938rem] largesceen:w-[27.688rem] hidden sm:block" priority />
           </div>
         </div>
 
@@ -49,7 +49,7 @@ const Facilities = () => {
             </h2>
 
             <div>
-              <Image src={image2} alt="facility image" className="lg:w-[14.438rem] desktop:w-[20.938rem] largesceen:w-[27.688rem] sm:hidden" priority/>
+              <Image src="/facility2.png" alt="facility image" className="lg:w-[14.438rem] desktop:w-[20.938rem] largesceen:w-[27.688rem] sm:hidden" priority/>
             </div>
           </div>
 
@@ -62,7 +62,7 @@ const Facilities = () => {
         </div>
 
         <div className="relative hidden sm:block">
-          <Image src={image1} alt="facility image" className="lg:w-[14.438rem] desktop:w-[20.938rem] largesceen:w-[27.688rem]"priority/>
+          <Image src="/facility1.png" alt="facility image" className="lg:w-[14.438rem] desktop:w-[20.938rem] largesceen:w-[27.688rem]"priority/>
           {/* <Image
             src={label}
             alt="label"
@@ -97,7 +97,7 @@ const Facilities = () => {
         </div>
 
         <div>
-          <Image src={ice} alt="ice room" className="lg:w-[22.25rem] desktop:w-[28.313rem] largesceen:w-[37.5rem]" priority />
+          <Image src="/space-copenhagen-the-stratford-architonic-jw4-04-arcit18 1.png" alt="ice room" className="lg:w-[22.25rem] desktop:w-[28.313rem] largesceen:w-[37.5rem]" priority />
         </div>
       </section>
       <Image src={divider} alt="diver" className="w-[97%] block mx-auto" />
@@ -129,7 +129,7 @@ const Facilities = () => {
         </div>
 
         <div>
-          <Image src='/conference.jpg' alt="ice room" className="lg:w-[22.25rem] desktop:w-[28.313rem] largesceen:w-[37.5rem] h-[26.5rem] largesceen:h-full" priority />
+          <Image src="/conference.jpg" alt="ice room" className="lg:w-[22.25rem] desktop:w-[28.313rem] largesceen:w-[37.5rem] h-[26.5rem] largesceen:h-full" priority />
         </div>
       </section>
       <Image src={divider} alt="diver" className="w-[97%] block mx-auto" />
@@ -171,7 +171,7 @@ const Facilities = () => {
         data-aos-duration="400"
         className="py-10 lg:py-14 sm:pt-16 desktop:pt-28 largesceen:pt-44 relative w-full  ">
         <Image
-          src={best}
+          src="/space-copenhagen-the-stratford-architonic-2-ed-reeve-24-arcit18 1.png"
           alt="diver"
           className="absolute  top-0 right-0 py-10 sm:py-20 largesceen:w-full largesceen:py-44 h-[30.5rem] sm:h-auto xl:h-[45.75rem] desktop:h-auto largesceen:h-[85.75rem]"
           priority
