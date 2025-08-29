@@ -1,12 +1,12 @@
 import "aos/dist/aos.css";
 import Image from "next/image";
-import vector14 from "@/public/about.png";
+// import vector14 from "@/public/about.png";
 // import image1 from "@/public/space-copenhagen-the-stratford-architonic-jw-25-12-arcit18 1.png";
 import image2 from "@/public/space-copenhagen-the-stratford-architonic-jw-26-11-arcit18 1.png";
 import vector2 from "@/public/Vector 3.svg";
 import label from "@/public/labelHero.svg";
 import labela from "@/public/labela.svg";
-import Reception from "../public/Reception.jpg";
+// import Reception from "../public/Reception.jpg";
 const About = () => {
   return (
     <main
@@ -14,7 +14,7 @@ const About = () => {
       className=" bg-primary mt-0 max-sm:pb-8 sm:py-14 relative lg:pt-10 w-full h-full  px-5 md:px-[1.9rem] largesceen:px-14 fourk:px-44  desktop:pb-20 largesceen:pb-36"
     >
       <Image
-        src={vector14}
+        src='/about.png'
         alt="vector-line"
         className="absolute right-0 top-0 overflow-hidden  h-full max-lg:hidden"
       />
@@ -25,7 +25,7 @@ const About = () => {
           </h1>
           <Image
             priority
-            src={Reception}
+            src='/Reception.jpg'
             alt="image of some of the hotels rooms"
             // placeholder="blur"
             className="w-full sm:w-[90%] max-lg:mx-auto h-[23.813rem] lg:w-[23.688rem] lg:h-[35.563rem] desktop:w-[27.688rem] desktop:h-[38.75rem] largesceen:h-[52.5rem] object-cover largesceen:w-[37.5rem]"
