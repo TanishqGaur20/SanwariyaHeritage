@@ -11,7 +11,7 @@ import vector from "@/public/VectorY.svg";
 import ice from "@/public/space-copenhagen-the-stratford-architonic-jw4-04-arcit18 1.png";
 import btn from "@/public/buttonroom.svg";
 import wine from "@/public/wine-reserve.jpg";
-import conference from "@/public/conference.jpg";
+// import conference from "@/public/conference.jpg";
 import best from "@/public/space-copenhagen-the-stratford-architonic-2-ed-reeve-24-arcit18 1.png";
 
 const Facilities = () => {
@@ -129,7 +129,7 @@ const Facilities = () => {
         </div>
 
         <div>
-          <Image src={conference} alt="ice room" className="lg:w-[22.25rem] desktop:w-[28.313rem] largesceen:w-[37.5rem] h-[26.5rem] largesceen:h-full" priority />
+          <Image src='/conference.jpg' alt="ice room" className="lg:w-[22.25rem] desktop:w-[28.313rem] largesceen:w-[37.5rem] h-[26.5rem] largesceen:h-full" priority />
         </div>
       </section>
       <Image src={divider} alt="diver" className="w-[97%] block mx-auto" />

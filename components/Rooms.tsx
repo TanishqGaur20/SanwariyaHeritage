@@ -7,7 +7,7 @@ import room1 from "@/public/space-copenhagen-the-stratford-architonic-rs-10-28-a
 import btn from "@/public/buttonroom.svg";
 import star8 from "@/public/Star 8.svg";
 import Swal from "sweetalert2";
-import Room2 from "@/public/Room1.jpg";
+// import Room2 from "@/public/Room1.jpg";
 
 const Rooms = () => {
   const [isPopupVisible, setIsPopupVisible] = useState(false);
@@ -190,7 +190,7 @@ const Rooms = () => {
 
         <div className="relative ">
           <Image
-            src={Room2}
+            src="/Room1.jpg"
             alt="room image"
             className="lg:w-[22.25rem] desktop:w-[30.75rem] largesceen:h-[45.5rem] largesceen:w-[37.5rem]"
             priority

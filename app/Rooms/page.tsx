@@ -4,7 +4,6 @@ import AOS from 'aos';
 import Navbar from '@/components/Navbar';
 import RoomHero from './RoomHero';
 import Image from 'next/image';
-import best from '@/public/space-copenhagen-the-stratford-architonic-2-ed-reeve-24-arcit18 1.png';
 import star from '@/public/Star 8.svg';
 import Footer from '@/components/Footer';
 import BookARoom from './BookARoom';
@@ -43,7 +42,7 @@ const Rooms = () => {
       <section className='bg-primary desktop:py-28 px-5 md:px-[1.9rem] desktop:px-28 largesceen:px-44'>
         <p className='text-secondary sm:text-lg md:text-2xl desktop:text-[2.5rem] capitalize'>Premier Standard</p>
         <div className='pt-10 sm:pt-14 md:pt-16 desktop:pt-20 largesceen:pt-28 flex justify-center'>
-          <Image src={best} alt='diver' className='largesceen:w-full h-[27.5rem] sm:h-auto xl:h-[45.75rem] desktop:h-auto largesceen:h-[55.75rem] mx-auto' priority placeholder='blur' />
+          <Image src='/space-copenhagen-the-stratford-architonic-2-ed-reeve-24-arcit18 1.png' alt='diver' className='largesceen:w-full h-[27.5rem] sm:h-auto xl:h-[45.75rem] desktop:h-auto largesceen:h-[55.75rem] mx-auto' priority placeholder='blur' />
         </div>
       </section>
 

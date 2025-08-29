@@ -1,7 +1,6 @@
 "use client";
 import React, { useEffect, useState, useRef } from "react";
 import Swal from "sweetalert2";
-import best from "@/public/roomHero.png";
 import Image from "next/image";
 const RoomHero = () => {
   const [isPopupVisible, setIsPopupVisible] = useState(false);
@@ -91,7 +90,7 @@ const RoomHero = () => {
     <main className="sm:pb-20  largesceen:pb-44 overflow-hidden">
       <section className="relative w-full  h-full max-sm:h-[65vh]">
         <Image
-          src={best}
+          src="/roomHero.png"
           alt="diver"
           className="absolute  top-0 right-0  largesceen:w-full desktop:pb-44 h-full w-full  sm:h-[30.438rem] lg:h-[30.438rem] xl:h-[46.75rem] desktop:h-auto largesceen:h-[80.188rem]"
           priority
